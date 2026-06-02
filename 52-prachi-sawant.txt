@@ -1,0 +1,31 @@
+#problem2
+a=4
+b=9
+c=19
+Def even_odd(num):
+if num % 2==0:
+return("even")
+else:
+return("odd")
+print(even_odd(a))
+print(even_odd(b))
+print(even_odd(c))
+
+#problem2
+Def chkdb3(num):
+if num % 3==0:
+    return("divisible by 3")
+else:
+    return("not divisible by 3")
+print(chkdb3(a))
+print(chkdb3(b))
+print(chkdb3(c))
+
+#problem3
+def print_list_elements(lst):
+    for element in lst:
+        print(element)
+
+a = [1, 2, 3]
+
+print_list_elements(a)
