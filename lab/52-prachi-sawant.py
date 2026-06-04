@@ -57,5 +57,10 @@ print(L)
 d = {"Ram": 30, "Vijay": 40, "Radha": 60}
 
 print(d["Vijay"])
+d = {"Ram": 30, "Vijay": 40, "Radha": 60}
+
+d.update({"Tom": 2, "Don": 10})
+
+print(d)
 
 
