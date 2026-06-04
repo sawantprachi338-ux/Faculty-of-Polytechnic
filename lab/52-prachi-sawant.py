@@ -52,4 +52,10 @@ L.pop(2)
 L.pop(0)
 print(L) 
 
+#problem7
+
+d = {"Ram": 30, "Vijay": 40, "Radha": 60}
+
+print(d["Vijay"])
+
 
